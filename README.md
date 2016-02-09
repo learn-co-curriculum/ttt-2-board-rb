@@ -8,9 +8,9 @@ When building a Tic Tac Toe program, you're going to have to figure out a way to
 
 ```
    |   |
------------      
+-----------
    |   |
------------   
+-----------
    |   |
 ```
 
@@ -18,9 +18,9 @@ A Tic Tac Toe board is basically a 3x3 grid with 9 total positions. You could th
 
 ```
  1 | 2 | 3
------------      
+-----------
  4 | 5 | 6
------------   
+-----------
  7 | 8 | 9
 ```
 
@@ -30,9 +30,9 @@ This is super useful because it will eventually allow players to easily tell the
 
 ```
  X |   |
------------      
+-----------
    |   |
------------   
+-----------
    |   |
 ```
 
@@ -80,9 +80,9 @@ row[1] = "X"
 row #=> [" ", "X", " "]
 ```
 
-*Note: You should not create a multi-dimensional or nested array. The array should be flat and have only string values.*
+*Note: You should create a one-dimensional and have only string values.*
 
-*Remember: Represent a position in the board array as a string with a space in it: `" "`*
+*Remember: Represent an empty position on the board array as a string with a space in it: `" "`*
 
 ## Objectives
 
